@@ -1,0 +1,14 @@
+# Site settings
+assets:
+  compression: false 
+  compress:
+    css: sass
+    js: uglifier
+  precompile: [header.jpg]
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-assets
