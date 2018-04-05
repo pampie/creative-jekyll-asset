@@ -4,6 +4,9 @@ assets:
   compress:
     css: sass
     js: uglifier
+  sources:
+    - _assets/stylesheets
+    - _assets/javascripts
   precompile: [header.jpg]
 
 # Build settings
